@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nazilma</title>
+
+    <!-- BOOTSTRAP  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">MyPortfolio</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#informasi">Informasi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="container">
+        <img src="zil.jpeg" alt="Foto Profil">
+        <div>
+            <h1>Nazilma Azzahra</h1>
+            <p>
+                Hai! Nama saya Nazilma Azzahra, saya mahasiswa Sistem Informasi Semester 1<br>
+                Kelas 01SIFP008<br>
+                Saya suka belajar hal baru dan berusaha memberikan dampak positif.
+            </p>
+            <a href="#projek" class="btn btn-secondary">Lihat Projek</a>
+        </div>
+    </div>
+</section>
+
+<!-- PROFILE + SKILLS -->
+<section id="profile" class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Profile</h2>
+
+        <p class="text-center mb-4">
+            <p class="text-center mb-4">
+    Saya adalah mahasiswa Program Studi Sistem Informasi Semester 1 
+    yang memiliki minat pada bidang teknologi informasi, khususnya pengembangan website. 
+    Saya terbiasa menggunakan HTML, CSS, dan Bootstrap dalam membuat tampilan website sederhana. 
+    Melalui pembelajaran dan latihan yang berkelanjutan, saya terus berusaha meningkatkan kemampuan 
+    serta pemahaman saya di bidang ini.
+</p>
+
+        </p>
+
+        <div class="row text-center">
+            <div class="col-md-3 skill-box">HTML</div>
+            <div class="col-md-3 skill-box">CSS</div>
+            <div class="col-md-3 skill-box">Bootstrap</div>
+            <div class="col-md-3 skill-box">JavaScript</div>
+        </div>
+    </div>
+</section>
+
+<!-- INFORMASI -->
+<section id="informasi" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-3">Informasi</h2>
+        <p class="text-center">
+            <p class="text-center">
+    Website portfolio ini dibuat sebagai tugas Ujian Akhir Semester (UAS) 
+    yang berisi profile diri, kemampuan, hasil projek, serta dokumentasi media
+    berupa foto dan video. Website ini digunakan sebagai sarana untuk 
+    memperkenalkan diri dan menampilkan hasil pembelajaran selama perkuliahan.
+</p>
+.
+        </p>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="project">
+  <div class="container">
+        <h2 class="text-center fw-bold mb-4">Project</h2>
+        <p class="media-text">
+    Berikut merupakan beberapa hasil project yang telah saya kerjakan 
+    selama mengikuti perkuliahan.
+</p>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="z.png" class="img-fluid rounded">
+                <h5 class="mt-2">Project HTML</h5>
+            </div>
+            <div class="col-md-4">
+                <img src="zz.png" class="img-fluid rounded">
+                <h5 class="mt-2">Website Profile</h5>
+            </div>
+            <div class="col-md-4">
+                <img src="zzz.png" class="img-fluid rounded">
+                <h5 class="mt-2">Pemrograman 1</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MEDIA -->
+<section id="media" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Media</h2>
+        
+<p class="media-text">
+    Berikut merupakan dokumentasi media berupa foto, video,dan audio
+    sebagai pendukung informasi diri.</p>
+
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- FOTO -->
+            <div class="col-md-4">
+                <div class="media-card text-center">
+                    <h5 class="mb-3">📷 Foto</h5>
+                    <img src="zill.jpeg" alt="Media Foto" class="media-portrait">
+                </div>
+            </div>
+
+            <!-- VIDEO -->
+            <div class="col-md-4">
+                <div class="media-card text-center">
+                    <h5 class="mb-3">🎥 Video</h5>
+                    <video class="media-portrait" controls>
+                        <source src="z.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- AUDIO -->
+            <div class="col-md-4">
+                <div class="media-card text-center">
+                    <h5 class="mb-3">🎧 Audio</h5>
+                    <audio controls class="w-100">
+                        <source src="zz.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 bg-secondary text-white">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-3">Contact</h2>
+        <form class="mx-auto" style="max-width:500px;">
+            <input type="text" class="form-control mb-3" placeholder="Nama">
+            <input type="email" class="form-control mb-3" placeholder="Email">
+            <textarea class="form-control mb-3" rows="4" placeholder="Pesan"></textarea>
+            <button class="btn btn-light w-100">Kirim</button>
+        </form>
+    </div>
+</section>
+
+<footer class="text-center py-3">
+    &copy; 2026 Nazilma Azzahra
+</footer>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
